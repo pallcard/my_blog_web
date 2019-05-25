@@ -28,3 +28,12 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+#### 安装 scss 
+npm install node-sass --save-dev 
+npm install sass-loader --save-dev
+
+#### 去eslint
+config/index.js useEslint: false,
+idea: file->setting,搜索eslint,将Enable选项勾选掉
+
