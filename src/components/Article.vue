@@ -1,6 +1,6 @@
 <template>
   <div>
-    article
+    <Button v-on:click="testOnclick">test</Button>
   </div>
 </template>
 
@@ -9,21 +9,23 @@ export default {
   name: 'headerDiv',
   data () {
     return {
-      navs: [
-        {li: '网站首页'},
-        {li: '我的相册'},
-        {li: '我的日记'}
-      ]
+    }
+  },
+  methods: {
+    testOnclick: function () {
+      console.log("111")
+      this.$http({
+        method: 'get',
+        url: 'http://localhost:7001/api/v1/home/banners',
+      }).then(function (response) {
+          console.log(response);
+        })
     }
   }
 }
-
-
 </script>
 
 <style lang="scss" scoped>
-  /*nav{ width: 1000px; margin: auto; overflow: hidden; padding: 0 0 20px 0 }*/
-  /*nav li { display: inline-block; float: left; padding-right:30px;text-align: center; overflow: hidden; line-height: 30px; }*/
 
 
 </style>

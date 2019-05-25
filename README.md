@@ -39,3 +39,8 @@ idea: file->setting,搜索eslint,将Enable选项勾选掉
 
 #### 引入iview
 npm install iview --save
+https://www.iviewui.com/docs/guide/install
+
+
+#### 引入axios
+npm install axios
