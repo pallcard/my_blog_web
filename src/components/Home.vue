@@ -1,19 +1,17 @@
 <template>
-  <div>
-    home
+  <div style="background:#eee;padding: 20px">
+    <Card :bordered="true" :dis-hover="true">
+      <p slot="title">标题</p>
+      <p>内容</p>
+    </Card>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'headerDiv',
   data () {
     return {
-      navs: [
-        {li: '网站首页'},
-        {li: '我的相册'},
-        {li: '我的日记'}
-      ]
+
     }
   }
 }

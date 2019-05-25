@@ -37,3 +37,5 @@ npm install sass-loader --save-dev
 config/index.js useEslint: false,
 idea: file->setting,搜索eslint,将Enable选项勾选掉
 
+#### 引入iview
+npm install iview --save
