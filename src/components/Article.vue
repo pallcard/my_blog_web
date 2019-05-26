@@ -19,12 +19,11 @@
     methods: {
       testOnclick: function () {
         console.log("111")
-        this.$http({
-          method: 'get',
-          url: 'http://localhost:7001/api/v1/home/banners',
-        }).then(function (response) {
-            console.log(response);
-          })
+        this.$http.post('http://localhost:7001//api/user/article/query_article_list',{pageNo: 0,
+          size: 10}).then(function (response) {
+          console.log(response);
+        })
+
       },
       testOnclick2: function () {
         console.log("111")

@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Layout>
-      <Header><header-div/></Header>
+      <Header>
+        <header-div/>
+      </Header>
       <Layout>
         <Content>
           <Row type="flex" justify="start" class="code-row-bg">

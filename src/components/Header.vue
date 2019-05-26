@@ -17,8 +17,8 @@ export default {
     return {
       navs: [
         {context: '首页', href:'/home'},
-        {context: '文章', href:'/article'},
-        {context: '归档', href:'/home'}
+        // {context: '文章', href:'/article'},
+        {context: '归档', href:'/timeline'}
       ]
     }
   }
