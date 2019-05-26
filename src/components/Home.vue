@@ -1,10 +1,16 @@
 <template>
-  <div style="background:#eee;padding: 20px">
+  <div style="background:#F5F7F9;padding: 20px">
+    <Card :bordered="true" :dis-hover="true" style="margin-bottom: 20px">
+      <p slot="title">你是什么人便会遇上什么人</p>
+      <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
+    </Card>
+
     <Card :bordered="true" :dis-hover="true">
-      <p slot="title">标题</p>
-      <p>内容</p>
+      <p slot="title">你是什么人便会遇上什么人</p>
+      <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
     </Card>
   </div>
+
 </template>
 
 <script>
@@ -20,7 +26,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  /*nav{ width: 1000px; margin: auto; overflow: hidden; padding: 0 0 20px 0 }*/
-  /*nav li { display: inline-block; float: left; padding-right:30px;text-align: center; overflow: hidden; line-height: 30px; }*/
 
 </style>

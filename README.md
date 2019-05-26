@@ -44,3 +44,6 @@ https://www.iviewui.com/docs/guide/install
 
 #### 引入axios
 npm install axios
+
+#### 引入vuex
+npm install vuex --save
